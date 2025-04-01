@@ -277,6 +277,11 @@ class VehicleInfo(object):
         "default_frame": "plane",
         "frames": {
             # PLANE
+            "prova-advanced":{
+            	"waf_target": "bin/arduplane",
+            	"default_params_filename": "default_params/prova-advanced.parm",
+            	"external": True,
+            },
             "quadplane-tilttri": {
                 "waf_target": "bin/arduplane",
                 "default_params_filename": ["default_params/quadplane.parm",

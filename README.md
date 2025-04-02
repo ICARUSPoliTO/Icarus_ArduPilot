@@ -4,4 +4,7 @@ To set ardupilot up:<br />
 - from terminal, in the installation folder:<br />
   Tools/environment_install/install-prereqs-ubuntu.sh -y<br />
   ~/.profile <br />
-  ./waf configure
+  ./waf configure <br />
+
+To start ardupilot: <br />
+    sim_vehicle.py -v \<vehicle type\> -f \<frame name\> --model JSON --console --map

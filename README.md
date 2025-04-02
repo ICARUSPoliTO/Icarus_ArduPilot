@@ -1,4 +1,4 @@
-To set ardupilot up:
+To set ardupilot up:<br />
     - clone the repo using: <br />
         git clone --recurse-submodules \<url\>
     - from terminal, in the installation folder:<br />
